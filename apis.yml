@@ -1,8 +1,17 @@
 aid: fairplay
 name: Fairplay
-description: 'Fairplay is a company surfaced as a portfolio company of qed-investors, speedinvest and
-  added to the API Evangelist network as a stub for enrichment. Sector: wealth-management. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: >-
+  Fairplay is a Mexican fintech offering flexible, collateral-free business
+  financing for e-commerce sellers, marketplaces, retailers, and wholesalers.
+  Its products include revolving credit lines (MXN 2-30 million), invoice
+  advances/factoring, and working-capital financing, underwritten from a
+  company's sales and analytics data with offers issued in as little as 48 hours
+  through a 100% digital process. Fairplay operates as a Sociedad Financiera de
+  Objeto Multiple, Entidad No Regulada (SOFOM E.N.R.) under Mexican CNBV and
+  CONDUSEF supervision and is ISO/IEC 27001:2022 certified for information
+  security. The company was surfaced as a portfolio company of QED Investors and
+  Speedinvest. Fairplay serves financing and account data to customers through a
+  private insights dashboard; no public developer API is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/fairplay/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,18 +20,58 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Wealth Management
+- Financial Services
+- Lending
+- Embedded Finance
+- Working Capital
+- Revenue-Based Financing
+- E-commerce
+- Fintech
+- Mexico
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+image: https://cdn.prod.website-files.com/6615a55c0b856c920a33052f/666ecb4040701ad033d7508e_Logo%20color.svg
 common:
+- type: DomainSecurity
+  url: security/fairplay-domain-security.yml
+- type: Conformance
+  url: conformance/fairplay-conformance.yml
+- type: Compliance
+  url: https://cdn.prod.website-files.com/6615a55c0b856c920a33052f/6a32d89db5168d1c6698ad41_forcsg-p11.1.3%20CERTIFICADO-ISO%20IEC%2027001%20-%20FREEDOM.pdf
 - type: Website
-  url: http://getfairplay.com
+  url: https://getfairplay.com
+- type: Blog
+  url: https://getfairplay.com/blog
+- type: HelpCenter
+  url: https://getfairplay.com/centro-de-ayuda
+- type: Login
+  url: https://insights.getfairplay.com/
+- type: PrivacyPolicy
+  url: https://getfairplay.com/aviso-de-privacidad
+- type: TermsOfService
+  url: https://getfairplay.com/terminos-y-condiciones
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

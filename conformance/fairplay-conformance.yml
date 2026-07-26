@@ -1,0 +1,20 @@
+generated: '2026-07-19'
+method: searched
+source: https://getfairplay.com/aviso-de-privacidad
+standards:
+- id: iso-27001
+  conforms: true
+  evidence: >-
+    Fairplay publishes an ISO/IEC 27001:2022 information security management
+    certificate, linked from its privacy notice.
+  certificate: https://cdn.prod.website-files.com/6615a55c0b856c920a33052f/6a32d89db5168d1c6698ad41_forcsg-p11.1.3%20CERTIFICADO-ISO%20IEC%2027001%20-%20FREEDOM.pdf
+- id: cnbv-sofom-enr
+  conforms: true
+  evidence: >-
+    Regulated as a Sociedad Financiera de Objeto Multiple, Entidad No Regulada
+    (SOFOM E.N.R.) under Mexican CNBV / CONDUSEF supervision.
+notes: >-
+  No public API / OpenAPI is published by Fairplay; cross-cutting API standards
+  (OAuth2, RFC 9457, pagination, idempotency) cannot be asserted from a spec.
+  Conformance here reflects the provider's published security and regulatory
+  compliance posture only.
