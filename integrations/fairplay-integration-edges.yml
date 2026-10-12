@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/fairplay/integrations
+- https://n8n.io/integrations/fairplay/
+- https://composio.dev/toolkits/fairplay
+- https://monid.ai/tools/fairplay
+checked:
+- https://composio.dev/toolkits/fairplay
+- https://monid.ai/tools/fairplay
+- https://n8n.io/integrations/fairplay/
+- https://zapier.com/apps/fairplay/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
