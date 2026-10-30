@@ -64,6 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Fairplay is a company surfaced as a portfolio company of qed-investors, speedinvest and added to the API Evangelist network as a stub for enrichment. Sector: wealth-management. This profile is a lead awaiting the enrichment pipeline.
+Fairplay is a Mexican fintech offering flexible, collateral-free business financing for e-commerce sellers, marketplaces, retailers, and wholesalers. Its products include revolving credit lines (MXN 2-30 million), invoice advances/factoring, and working-capital financing, underwritten from a company's sales and analytics data with offers issued in as little as 48 hours through a 100% digital process. Fairplay operates as a Sociedad Financiera de Objeto Multiple, Entidad No Regulada (SOFOM E.N.R.) under Mexican CNBV and CONDUSEF supervision and is ISO/IEC 27001:2022 certified for information security. The company was surfaced as a portfolio company of QED Investors and Speedinvest. Fairplay serves financing and account data to customers through a private insights dashboard; no public developer API is currently published.
 
-Backed by: qed-investors, speedinvest — http://getfairplay.com
+**Areas:** Company · Financial Services · Lending · Embedded Finance · Working Capital · Revenue-Based Financing · E-Commerce · Fintech · Mexico
+
+## Fairplay on APIs.io
+
+Everything profiled for Fairplay is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fairplay/](https://apis.io/providers/fairplay/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Fairplay Domain Security](https://apis.io/security/fairplay/fairplay-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://getfairplay.com)
+- [Blog](https://getfairplay.com/blog)
+- [Compliance](https://cdn.prod.website-files.com/6615a55c0b856c920a33052f/6a32d89db5168d1c6698ad41_forcsg-p11.1.3%20CERTIFICADO-ISO%20IEC%2027001%20-%20FREEDOM.pdf)
+- [Terms of service](https://getfairplay.com/terminos-y-condiciones)
+- [Privacy policy](https://getfairplay.com/aviso-de-privacidad)
+
+## API Evangelist rating
+
+**Kin Score 16.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 35.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 23.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fairplay/](https://apis.io/providers/fairplay/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Fairplay: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fairplay/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
